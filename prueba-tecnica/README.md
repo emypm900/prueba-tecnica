@@ -16,4 +16,19 @@ La Biblioteca Virtual es un gestor de biblioteca en línea que permite a los usu
 2. **Gestión de Libros:** Agrega tus libros favoritos, edita la información y elimina libros que ya no deseas.
 3. **Reseñas Personalizadas:** Escribe reseñas para compartir tus opiniones sobre cada libro en tu colección.
 4. **Exploración Pública:** Incluso si no estás registrado, utiliza la función de búsqueda para encontrar libros y leer reseñas de otros usuarios.
- 
+
+## Instalacion de entorno
+1. Clonar repositorio
+2. en la ruta del proyecto, en un CMD, ejecutar composer install
+3. ejecutar npm install
+4. ejecutar copy .env.example .env
+5. agregar el nombre de la DB en DB_DATABASE
+6. levantar los servicios del servidor web local (Xampp, Mampp, Lampp)
+7. crear la base de datos library en phpmyadmin
+8. ejecutar php artisan migrate
+9. ejecutar  php artisan db:seed --class=UsersTableSeeders
+10. ejecutar php artisan db:seed --class=booksTableSeeder
+11. ejecutar php artisan db:seed --class=reviewsTableSeeder
+12. ejecutar php artisan key:generate
+13. ejecutar php artisan serve
+14. ejecutar npm run dev
