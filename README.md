@@ -20,18 +20,18 @@ Key Features
 4. **Public Exploration:** Even if you are not registered, use the search function to find books and read reviews from other users.
 
 ## Environment Setup
-1.  Clone Repository
-2.  In the project directory, in a CMD, run composer install
-3.  Run npm install
-4.  Run copy .env.example .env
-5.  Add the database name in DB_DATABASE
-6.  Start the local web server services (Xampp, Mampp, Lampp)
-7.  Create the database named "library" in phpMyAdmin
-8.  Run php artisan migrate
-9.  Run php artisan db:seed --class=UsersTableSeeders
-9.1 Run php artisan db:seed --class=booksTableSeeder
-9.2 Run php artisan db:seed --class=reviewsTableSeeder
-10  Run php artisan key:generate
-11  Run php artisan serve
-12  Run npm run dev
+1.   Clone Repository
+2.   In the project directory, in a CMD, run composer install
+3.   Run npm install
+4.   Run copy .env.example .env
+5.   Add the database name in DB_DATABASE
+6.   Start the local web server services (Xampp, Mampp, Lampp)
+7.   Create the database named "library" in phpMyAdmin
+8.   Run php artisan migrate
+9.   Run php artisan db:seed --class=UsersTableSeeders
+9.1. Run php artisan db:seed --class=booksTableSeeder
+9.2. Run php artisan db:seed --class=reviewsTableSeeder
+10.  Run php artisan key:generate
+11.  Run php artisan serve
+12.  Run npm run dev
 
