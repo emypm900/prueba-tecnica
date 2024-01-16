@@ -29,9 +29,9 @@ Key Features
 7.   Create the database named "library" in phpMyAdmin
 8.   Run php artisan migrate
 9.   Run php artisan db:seed --class=UsersTableSeeders
-9.1. Run php artisan db:seed --class=booksTableSeeder
-9.2. Run php artisan db:seed --class=reviewsTableSeeder
-10.  Run php artisan key:generate
-11.  Run php artisan serve
-12.  Run npm run dev
+10.  Run php artisan db:seed --class=booksTableSeeder
+11. Run php artisan db:seed --class=reviewsTableSeeder
+12.  Run php artisan key:generate
+13.  Run php artisan serve
+14.  Run npm run dev
 
